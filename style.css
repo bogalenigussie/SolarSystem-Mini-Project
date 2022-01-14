@@ -1,0 +1,99 @@
+body{
+    display:flex;
+    height: 40vh;
+    width: 800px;
+    align-items:center;
+    margin: auto;
+    background: url(https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif);
+    background-repeat: repeat;
+ }
+.header { /* header attributes  */
+    margin-top:10px;
+    margin-bottom: 10px;
+    display:flex;
+    height: 20px;
+    justify-content: center;
+    width: 800px;
+    color: rgb(220, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input {  /* a place where user gives input */
+    margin-top: 75px;
+    width: 700px;
+    height: 20px;
+    display: flex;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+.result {  /* a container or frame which hold all out puts or results */
+    height: 250px;
+    width: 800px;
+    display: flex;
+    padding-top: 30px;
+    background-color:rgba(245, 245, 245, 0.25);
+    opacity:0.5;
+    margin-bottom: auto;
+    position: fixed;
+}
+.summary{  /* a regtangular container  which holds a circle with the weight output */
+    height: 150px;
+    width: 300px;
+    outline: dashed 1px rgb(63, 117, 12);
+    position: absolute;
+    padding: 10px;
+    margin-left:420px;
+    margin-top:25px;
+    background: rgba(245, 245, 245, 0.25);
+    text-align: center;
+    color: rgb(8, 12, 9);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    opacity:0.8;
+}
+.circle { /* a circular container inside rectangular contanier which holds the weight output */
+    height: 120px;
+    width: 150px;
+    background-color: rgba(245, 245, 245, 0.082);
+    border-radius: 100%;
+    margin-left:90px;
+    margin-top:5px;
+    opacity:0.9;
+    text-align: center;
+    filter:brightness(250%);
+}
+#calaculated_Weight { /* calculated weight which is displayed in circular display*/
+    
+    font-size: 20px;
+    padding:35px;
+    padding-left: px;
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 5px;
+    color: rgb(53, 13, 13);
+    filter:brightness(10%);
+}
+#image {  /*planets images property or attributes */  
+    padding:32px;
+    display: flex;
+    margin-left: 2px;
+    filter:brightness(180%);
+}
+#select-planets {   /*choose planets input field   */  
+    width: 200px;
+    height:38px;
+    margin: 10px;
+}
+#weight-Input{ /*weight input field formmating attributes */  
+    width: 200px;
+    height:32px;
+    margin: 10px;
+}
+#btn { /*calculate weight formatting attributes*/  
+    font-size:15px;
+    width:185px;
+    height:39px;
+    margin: 10px;
+    background-color: rgb(141, 179, 141);
+}

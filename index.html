@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+ <body>    
+   <dv class="container">
+      <div class="header">
+         <h1>Calculate a weight of an object on a planet</h1>
+      </div>
+      <div class="input">
+         <form>  
+            <input id="weight-Input" type="number" min="0" onkeypress="return event.charCode >= 48"   placeholder="Enter Mass in Kilogram" >
+               <select id="select-planets">
+                  <option value="">--Select a planet--</option>
+                  <option value="Mercury">Mercury</option>
+                  <option value="Venus">Venus</option>
+                  <option value="Earth">Earth</option>
+                  <option value="Moon">Moon</option>
+                  <option value="Mars">Mars</option>
+                  <option value="Jupiter">jupiter</option>
+                  <option value="Saturn">Saturn</option>
+                  <option value="Uranus">Uranus</option>
+                  <option value="Neptune">Neptune</option>
+                  <option value="Pluto">Pluto</option>
+               </select> 
+               <button id="btn" type="button">Calculate weight</button>
+         </form> 
+      </div>
+   </div>
+   <div class="result">       
+         <div id="image" >
+         </div>
+         <div class="summary">
+             <div id="summaryText">
+             </div>
+             <div class="circle" >
+               <dv id="calaculated_Weight">
+               </dv> 
+             </div>
+         </div>
+   </div>
+   <div id="parent">
+   </div>
+<script src="main.js"></script>
+</body>    
+</html>        
+        
+            
+                    
+          
+        
+
+
